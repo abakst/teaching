@@ -1,0 +1,11 @@
+# CSE 130 Section Notes 1/17/2014
+# Alexander Bakst
+
+# Safe List.hd etc...
+
+remember our definition of hd:
+
+    let hd x = match x with
+                 | []   -> failwith "hd: empty list"
+                 | h::t -> h
+    

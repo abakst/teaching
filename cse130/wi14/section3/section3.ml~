@@ -1,0 +1,4 @@
+let concat lst = 
+  match lst with
+    | []   -> []
+    | h:tl -> h @ concat tl
